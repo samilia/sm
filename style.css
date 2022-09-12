@@ -1,0 +1,343 @@
+
+/* Global Class */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section {
+    padding: 100px 0px;
+} 
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* Header part */
+header {
+    background-color: #87509c;
+    color: #fff;
+    width:100% ;
+    float:left ;
+    padding: 50px 0px;
+}
+Nav {
+    width: 100%;
+    float: left;
+}
+.logo-part {
+    width: 50% ;
+    float:left;
+    
+    
+}
+.menu-part {
+    width: 50% ;
+    float: left;
+    padding-top:  10px;
+    text-align: right;
+    
+
+}
+.menu-part li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-part a {
+ text-decoration: none;
+ font-size: 20px;
+ color: #fff;
+ font-weight: 500;
+ margin: 10px;
+ padding: 10px;
+}
+.menu-part a:hover {
+background-color: #11101150;
+}
+.writing-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.writing-part h1{
+    width: 50%;
+    margin: 25px auto;
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+.button {
+    font-size: 12px;
+    background-color:#eb7d4b;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    padding: 15px 55px ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+/* service section */
+#service {
+width: 100%;
+float: left;
+background-color:#17c2a4 ;
+color: #fff;
+text-align: center;
+}
+.service-writing-part {
+width: 100%;
+float: left;
+padding: 20px;
+}
+.service-box-part {
+width: 100%;
+float: left;
+padding-top: 40px;
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.service-writing-part h1 {
+font-size: 35px;
+font-family: "Titillium Web", sans-serif;
+
+} 
+.service-box{
+ width: 25%;
+ float: left; 
+ padding-top: 25px; 
+}
+/* Team section */
+#Team {
+    width: 100%;
+    float: left;
+    background-color: rgba(235, 209, 209, 0.185);
+    color: #000;
+    text-align: center;
+   
+}
+.Team-writing-part {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.Team-box-part {
+    width: 100%;
+    float: left;
+
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.Team-writing-part h1 {
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+.Team-box-part h4{
+    color: skyblue;
+}
+.Team-box {
+    width: 25%;
+    float: left;
+    padding-top: 25px;
+}
+/*Skill section*/
+#Skill {
+    width: 100%;
+    float: left;
+    background-color:#fff;
+    color: #000;
+    text-align: center;
+}
+.Skill-writing-part {
+    width: 100%;
+    float: left;
+    padding: 20px;
+}
+.underline {
+    width: 5%;
+    border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+    margin: 20px auto;
+}
+.Skill-writing-part h1 {
+    font-size: 35px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.Skill-box {
+        width: 25%;
+        float: left;
+        padding-top: 25px;
+}
+/*portfolio section*/
+ #portfolio {
+    width: 100%;
+    float: left;
+    background-color:#eec676 ;
+    color: #000;
+    text-align: center;
+ }
+ .underline {
+     width: 5%;
+     border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+     margin: 20px auto;
+ }
+ .portfolio-wtiting-part{
+    width: 100%;
+    float: left;
+ }
+ .portfolio-wtiting-part h1 {
+     font-size: 35px;
+     font-family: 'Titillium Web', sans-serif;
+ }
+ .m-part li {
+     list-style: none;
+     display: inline-block;
+     padding: 25px;
+ }
+.m-part a {
+    text-decoration: none;
+    font-size: 15px;
+    color:#000;
+    font-weight: 100;
+    margin: 3px;
+    padding: 3px;
+}
+
+.m-part a:hover  {
+    background-color:#fff;
+}
+.portfolio-box {
+    width: 50%;
+    float: left;
+    padding-top: 25px;
+    
+}
+.btn {
+    font-size: 12px;
+    background-color: #17c2a4;
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    padding: 15px 55px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    
+   
+}
+
+
+
+    
+#About {
+    width: 100%;
+    float: left;
+    background-color:#d74680 ;
+    color: #fff;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+ .underline {
+     width: 5%;
+     border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+     margin: 20px auto;
+ }
+ .About-writing-part{
+    width: 100%;
+    float: left;
+ }
+ .About-writing-part h1{
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+    box-sizing: border-box;
+ }
+ .About-box-part {
+    width: 100%;
+    float: left;
+    padding-top: 25px;
+ }
+.clint-box1 {
+    width: 50%;
+    float: left;
+    text-align: center;
+    ;
+}
+.clint-box2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+ #contact{
+        width: 100%;
+        float: left;
+        background-color: #3c5499;
+        color: #fff;
+        text-align: center;
+ }  
+ .underline {
+     width: 5%;
+     border-bottom: 4px solid rgba(172, 153, 153, 0.459);
+     margin: 20px auto;
+ }
+ .contact-writing-part {
+    width: 100%;
+    float: left;
+    padding: 25px;
+ }
+ .contact-form-part{
+    width: 100%;
+    float: left;
+ }
+ 
+ 
+ .contact-writing-part h1 {
+    font-size: 35px;
+    font-family: 'Titillium Web', sans-serif;
+ }
+  .form-row-1{
+    width: 100%;
+    float: left;
+    margin: 25px auto;
+    padding: 25px;
+    background-color:#273a71 ;
+
+ } 
+ .form-row-2{
+    width:100% ;
+    float: left;
+ }
+ .Links {
+    width: 100%;
+    float: left;
+    background-color: #344b8e;
+    padding: 25px 0px;
+    text-align: center;
+    text-decoration: none;
+ }
+ .links li{
+  display: inline-block;
+  list-style: none;
+  padding: 0px 15px;
+  
+ }
+ .links li a{
+    color: #fff;
+    text-decoration: none;
+ }
+
